@@ -1,0 +1,5 @@
+a,b=map(int,input().split())
+c=list(map(int,input().split()))
+c.sort()
+d=len(c)
+print(c[d-b])
